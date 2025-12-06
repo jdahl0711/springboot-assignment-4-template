@@ -31,8 +31,8 @@ import java.util.concurrent.Executors
 class TimetableIntegrationTest
     @Autowired
     constructor(
-        private val mvc: MockMvc,
         private val mapper: ObjectMapper,
+        private val mvc: MockMvc,
         private val dataGenerator: DataGenerator,
     ) {
         @BeforeEach
